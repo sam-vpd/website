@@ -59,3 +59,13 @@ position: relative;
 padding: 5px 20px;
 }
 
+#sidebarMenu{
+    background-color:rgb(15, 15, 15) ;
+    width: 1000px;
+    height: 500px;
+    display: inline-block;
+}
+
+#employee-list, #item-list, #customer-list, #inventory-list{
+    margin-left: 20px;
+}
