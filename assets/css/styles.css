@@ -3,3 +3,11 @@
     width: 1000px;
     height: 500px;
 }
+
+#employee-list, #item-list, #customer-list, #inventory-list{
+    margin-left: 20px;
+}
+
+.main-content{
+    margin-left: 280px;
+}
