@@ -2,7 +2,6 @@
     <div class="row">
         <div class="col-md-12 form-group">
             <h3>List of Employees</h3>
-            <a href="display.php">Back</a>
         </div>
     </div>
     <div class="row">
@@ -26,7 +25,7 @@
                     </thead>
                     <tbody>
                         <?php 
-                            include("conn.php");
+                            include("db/conn.php");
                             $sql = "";
                             if(isset($_POST['submit']))
                             { 
