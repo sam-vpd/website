@@ -29,19 +29,6 @@ if (!isset($_SESSION['username'])) {
         <?php include 'sidebar.php' ?>
       </header>
     </div>
-    <div class="col-6">
-      <div class="main-content" style="padding-top: 40px">
-        <div class="container-fluid">
-          <?php
-            $page = isset($_GET['page']) ? $_GET['page'] : '';
-            if(!file_exists($page.".php")){
-              include '404.html';
-            }else{
-              include $page.'.php';
-            }
-          ?>
-      </div>
-    </div>
   </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

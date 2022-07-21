@@ -1,7 +1,7 @@
-<div id="sidebarMenu" class="flex-shrink-0 p-3 bg-white" style="width: 280px; height 1000px;">
- <!-- <div id="logo">
-    <a href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"><img src="assets/imgs/growsystem.png" width="160" height="110" alt=""></a>
-  </div>-->
+<div id="sidebarMenu" class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+  <div id="logo">
+    <a href="index.php" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"><img src="assets/imgs/growsystem.png" width="160" height="110" alt=""></a>
+  </div>
   <div id="menu" class="menu-v">
     <ul class="list-unstyled ps-0">
       <li class="mb-1">
@@ -10,8 +10,8 @@
         </button>
         <div class="collapse" id="employee-list" style="">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="./index.php?page=display" class="link-dark rounded">List Of Employees</a></li>
-            <li><a href="" class="link-dark rounded">Employee1</a></li>
+            <li><a href="display_employ.php" class="link-dark rounded">List Of Employees</a></li>
+            <li><a href="addemployee.php" class="link-dark rounded">Add Employee</a></li>
             <li><a href="" class="link-dark rounded">Employee2</a></li>
           </ul>
         </div>
