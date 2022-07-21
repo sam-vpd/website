@@ -1,7 +1,7 @@
 <div id="sidebarMenu" class="flex-shrink-0 p-3 bg-white" style="width: 280px; height 1000px;">
-  <div id="logo">
-    <a href="" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"><img src="assets/imgs/growsystem.png" width="160" height="110" alt=""></a>
-  </div>
+ <!-- <div id="logo">
+    <a href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"><img src="assets/imgs/growsystem.png" width="160" height="110" alt=""></a>
+  </div>-->
   <div id="menu" class="menu-v">
     <ul class="list-unstyled ps-0">
       <li class="mb-1">

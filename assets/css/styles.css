@@ -8,7 +8,7 @@
 body{
     background-color:rgb(237, 243, 243);
 }
-#sidebarMenu .logo{
+#sidebarMenu{
     z-index:1;
     position: fixed;
     top: 1px;
@@ -21,8 +21,8 @@ body{
 
 #sidebarMenu #menu ul a{
     text-align: center;
-    color: #fff;
     padding: 20px;
+
 
 }
 #sidebarMenu #menu ul li a{
@@ -31,16 +31,17 @@ body{
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    color: black;
+    color:white;
     
 }
 #sidebarMenu #menu{
     z-index: 1;
     position:fixed;
     width: 250px;
-    height: calc(100% -9%);
+    height: 900px;
     transition: 0.3;
     overflow-y: auto;
+    background-color:#404040;
 }
 #sidebarMenu #menu .mb-1{
 display: block;
@@ -58,3 +59,14 @@ padding: 5px 20px;
 #employee-list, #item-list, #customer-list, #inventory-list{
     margin-left: 20px;
 }
+.link-dark rounded{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
