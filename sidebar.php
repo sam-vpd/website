@@ -51,7 +51,7 @@
               <li><a href="">Hep3</a></li>
             </ul>
         </li>
-        <li><a href="logout.php">Logout</a></li>
+        <li><a href="db/logout.php">Logout</a></li>
       </ul>
     </div>
     <div class="sidebox">
