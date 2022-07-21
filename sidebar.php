@@ -1,3 +1,6 @@
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <div id="sidebarMenu" class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
   <div id="logo">
     <a href="" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"><img src="assets/imgs/growsystem.png" width="160" height="110" alt=""></a>
@@ -54,17 +57,5 @@
         <li><a href="db/logout.php">Logout</a></li>
       </ul>
     </div>
-    <div class="sidebox">
-      <ul class="share">
-        <li><a href="#"><img src="assets/imgs/icon-rss.png" alt=""></a></li>
-        <li><a href="#"><img src="assets/imgs/icon-facebook.png" alt=""></a></li>
-        <li><a href="#"><img src="assets/imgs/icon-twitter.png" alt=""></a></li>
-        <li><a href="#"><img src="assets/imgs/icon-dribbble.png" alt=""></a></li>
-        <li><a href="#"><img src="assets/imgs/icon-linkedin.png" alt=""></a></li>
-      </ul>
-    </div>
-    <div class="sidebox" style="color:#FFF;">
-      <p style="margin-bottom:5px;">Copyright &copy; VPD Business Solutions</p>
-      <p>Design By: <a href="http://elemisfreebies.com">VPD</a></p>
-    </div>
-  </div>
+</div>
+</div>
