@@ -74,11 +74,11 @@
                                                         <td>".$row['timestamp']."</td>
                                             
                                                         <td>
-                                                        <form action=\"delete.php?delid=".$row['employee_id']."\" method =\"post\">
+                                                        <form action=\"db/delete.php?delid=".$row['employee_id']."\" method =\"post\">
                                                         <input class=\"btn btn-danger\" type=\"submit\" value=\"Delete \">
                                                         </form>
                                             
-                                                        <form action=\"edit.php?editid=".$row['employee_id']."\" method =\"post\">
+                                                        <form action=\"db/edit.php?editid=".$row['employee_id']."\" method =\"post\">
                                                         <input class=\"btn btn-warning\" type=\"submit\" value=\"Update\">
                                                         </form>
                                                         </td>

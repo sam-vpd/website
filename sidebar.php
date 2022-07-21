@@ -58,9 +58,12 @@
         </div>
       </li>
       <li class="mb-1">
-        <a href="settings.php" class="btn btn-toggle align-items-center rounded collapsed">
-          Settings
-        </a>
+        <button class="btn btn-toggle align-items-center rounded collapsed" style="padding: 0px;">
+          <a href="settings.php">
+            Settings
+          </a>
+        </button>
+        
       </li>
       <li class="mb-1">
         <a href="help.php" class="btn btn-toggle align-items-center rounded collapsed">

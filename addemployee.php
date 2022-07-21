@@ -1,13 +1,13 @@
 <?php
     include 'db/connect.php';
     if(isset($_POST['submit'])){
-        $birth_date=$_POST['birth_date'];
+        $email=$_POST['email'];
         $first_name=$_POST['first_name'];
         $last_name=$_POST['last_name'];
-        $gender=$_POST['gender'];
+        $phone_number=$_POST['phone_number'];
         $hire_date=$_POST['hire_date'];
 
-        $sql="INSERT INTO employees (birth_date, first_name, last_name, gender, hire_date) values ('$birth_date','$first_name','$last_name','$gender', '$hire_date')";
+        $sql="INSERT INTO employee (email, first_name, last_name, phone_number, hire_date) values ('$email','$first_name','$last_name','$phone_number', '$hire_date')";
         $result=mysqli_query($con,$sql);
         if($result){
             header("Location: display_employ.php");
@@ -43,8 +43,8 @@
             <div class="main-content" style="margin-top: 100px; margin-left: 120px;">
                 <form method="post">
                     <div class="form-group">
-                        <label>Birth date:</label>
-                        <input type="date" class="form-control" placeholder="Enter birthdate " name="birth_date" autocomplete="off" required>
+                        <label>Email:</label>
+                        <input type="email" class="form-control" placeholder="Enter email" name="email" autocomplete="off" required>
                     </div>
                     <div class="form-group">
                         <label>First name:</label>
@@ -55,8 +55,8 @@
                         <input type="text" class="form-control" placeholder="Enter last name " name="last_name" autocomplete="off" required>
                     </div>
                     <div class="form-group">
-                        <label>Gender:</label>
-                        <input type="text" class="form-control" placeholder="Enter gender " name="gender" autocomplete="off" required>
+                        <label>Phone number:</label>
+                        <input type="number" class="form-control" placeholder="Enter phone number " name="phone_number" autocomplete="off" required>
                     </div>
                     <div class="form-group">
                         <label>Hired date: </label>

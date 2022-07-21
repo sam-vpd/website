@@ -9,7 +9,7 @@ $sql = "DELETE FROM employee WHERE employee_id = $employee_id";
 
 if (mysqli_query($conn, $sql)) {
   echo "Record deleted successfully";
-  header("location:display.php");
+  header("location:../display_employ.php");
 } else {
   echo "Error deleting record: " . mysqli_error($conn);
 }
