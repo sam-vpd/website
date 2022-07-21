@@ -10,8 +10,8 @@
         </button>
         <div class="collapse" id="employee-list" style="">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="./index.php?page=display" class="link-dark rounded">List Of Employees</a></li>
-            <li><a href="./index.php?page=addemployee" class="link-dark rounded">Add Employee</a></li>
+            <li><a href="display_employ.php" class="link-dark rounded">List Of Employees</a></li>
+            <li><a href="addemployee.php" class="link-dark rounded">Add Employee</a></li>
             <li><a href="" class="link-dark rounded">Employee2</a></li>
           </ul>
         </div>
